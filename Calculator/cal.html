@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            
+            <div class="inp">
+                <input type="text" placeholder="0" id = 'res'>
+            </div>
+
+            <div class="key">
+                <button onclick="Clear()" class="up">AC</button>
+                <button onclick="Back()" class="up">DE</button>
+                <button onclick="Solve('.')" class="up">.</button>
+                <button onclick="Solve('/')" class="up">/</button>
+                <button onclick="Solve('7')">7</button>
+                <button onclick="Solve('8')">8</button>
+                <button onclick="Solve('9')">9</button>
+                <button onclick="Solve('*')" class="up">*</button>
+                <button onclick="Solve('4')">4</button>
+                <button onclick="Solve('5')">5</button>
+                <button onclick="Solve('6')">6</button>
+                <button onclick="Solve('-')" class="up">-</button>
+                <button onclick="Solve('1')">1</button>
+                <button onclick="Solve('2')">2</button>
+                <button onclick="Solve('3')">3</button>
+                <button onclick="Solve('+')" class="up">+</button>
+                <button onclick="Solve('00')">00</button>
+                <button onclick="Solve('0')">0</button>
+                <button class="up eq" onclick="Result()">=</button>
+            </div>
+        </div>
+    </div>
+<script src="cal.js"></script>
+</body>
+</html>
